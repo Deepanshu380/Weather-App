@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(
+      to bottom,
+      rgba(26, 35, 46, 0.8) 0%,
+      rgba(26, 35, 46, 0.8) 15%,
+      rgba(26, 35, 46, 0.4) 50%,
+      rgba(26, 35, 46, 0.92) 80%,
+      rgba(26, 35, 46, 0.99) 100%
+    ),
+    url("/public/bg.webp") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
